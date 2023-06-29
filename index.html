@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência XYZ</title>
+    <title>Agência</title>
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
@@ -19,26 +19,90 @@
 
 <body>
     <header class="header">
-    
+        <div class="header-container">
+            <a href="/landing-page-com-grid-agencia-xyz-f8506f02f717da23139be1da1fa7db2d7b1ec35a/index.html">
+                <h1>Agência</h1>
+            </a>
+            <nav>
+                <input type="checkbox" id="menu-hambuguer" />
+
+                <label for="menu-hambuguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <a href="#about">
+                    <p>About</p>
+                </a>
+                <a href="#services">
+                    <p>Services</p>
+                </a>
+                <a href="#projects">
+                    <p>Projects</p>
+                </a>
+                <a href="#contact">
+                    <p>Contact</p>
+                </a>
+            </nav>
+        </div>
     </header>
-
     <section class="hero">
-        
+        <h2>We make cool things</h2>
     </section>
-
-    <section class="about">
+    <section class="about" id="about">
+        <div class="item">
+            <h2>Title</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, beatae! Mollitia aperiam labore veritatis,
+                error deserunt a corporis, neque ab eaque illum libero perferendis fuga possimus, cupiditate
+                consequuntur necessitatibus dolores.</p>
+            <a href="" class="btn-know-more">Saiba mais</a>
+        </div>
+        <div class="image right"></div>
+        <div class="image left"></div>
+        <div class="item">
+            <h2>Title</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, beatae! Mollitia aperiam labore veritatis,
+                error deserunt a corporis, neque ab eaque illum libero perferendis fuga possimus, cupiditate
+                consequuntur necessitatibus dolores.</p>
+            <a href="" class="btn-know-more">Saiba mais</a>
+        </div>
     </section>
-
-    <section class="services">
-    
+    <section class="services" id="services">
+        <div class="service-1">
+            <img src="./src/images/bolinha1.png" alt="Bolinha 1">
+            <h2>SEO</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed est dolorum aut repellat soluta corrupti
+                porro iste delectus, non, vel quibusdam id nemo cumque at culpa hic ipsa omnis. Eligendi?</p>
+        </div>
+        <div class="service-2"><img src="./src/images/bolinha2.png" alt="Bolinha 2">
+            <h2>Landing Pages</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident, rerum explicabo veritatis
+                nihil quae iste totam, molestiae magni ab placeat modi perspiciatis quos dignissimos. Ipsa vitae vel
+                ducimus! Repellat!</p>
+        </div>
     </section>
-
-    <section class="projects">
-      
+    <section class="projects" id="projects">
+        <div class="project"><img src="./src/images/tomatoes.jpg" alt="tomatoes"></div>
+        <div class="project"><img src="./src/images/landscape.jpg" alt=landscape></div>
+        <div class="project"><img src="./src/images/plants3.jpg" alt="plants"></div>
+        <div class="project"><img src="./src/images/flowers.jpg" alt="flowers"></div>
     </section>
+    <footer class="footer" id="contact">
+        <h4>Agência</h4>
 
-    <footer class="footer">
-    
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-pinterest"></i></a>
+        </div>
     </footer>
 </body>
 
